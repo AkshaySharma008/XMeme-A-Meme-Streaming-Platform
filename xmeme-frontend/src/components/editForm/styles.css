@@ -1,0 +1,20 @@
+.editForm {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  z-index: 1000;
+  max-width: 40rem;
+  max-height: 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .editForm {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    margin-right: 1em;
+    z-index: 1000;
+    max-width: 40rem;
+    max-height: 25rem;
+  }
+}

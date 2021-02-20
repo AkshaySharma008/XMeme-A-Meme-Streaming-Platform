@@ -1,0 +1,25 @@
+.allMemes {
+  overflow-y: scroll;
+  height: 40.5rem;
+}
+
+.memeImg {
+  max-width: 16em;
+  max-height: 20em;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(158, 153, 153);
+  border-radius: 10px;
+}
